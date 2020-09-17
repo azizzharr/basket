@@ -10,6 +10,8 @@ class Product extends Component {
                         <h5 style={this.props.style} className="card-title">{this.props.title}</h5>
                         <p className="card-text">{this.props.text}</p>
                         <a href ="" className="btn btn-primary">{this.props.button}</a>
+                        <a href ="" style={{marginLeft:'10px;'}} className="price">200</a>
+
                     </div>
                 </div>
             </div>
